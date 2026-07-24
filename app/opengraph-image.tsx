@@ -1,3 +1,6 @@
+export const dynamic = "force-static";
+export const revalidate = false;
+
 import { ImageResponse } from "next/og";
 
 export const alt = "Voltheris — AI Systems for Business Automation";
@@ -28,8 +31,21 @@ export default async function Image() {
         >
           VOLTHERIS
         </div>
-        <div style={{ marginTop: 28, width: 180, height: 3, backgroundColor: "#B08D57" }} />
-        <div style={{ marginTop: 32, fontSize: 30, color: "#57534A" }}>
+        <div
+          style={{
+            marginTop: 28,
+            width: 180,
+            height: 3,
+            backgroundColor: "#B08D57",
+          }}
+        />
+        <div
+          style={{
+            marginTop: 32,
+            fontSize: 30,
+            color: "#57534A",
+          }}
+        >
           AI Systems for Business Automation
         </div>
       </div>

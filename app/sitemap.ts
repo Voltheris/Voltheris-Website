@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+export const revalidate = false;
 import type { MetadataRoute } from "next";
 import { caseStudies } from "@/content/caseStudies";
 import { articles } from "@/content/articles";
